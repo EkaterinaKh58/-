@@ -1,0 +1,71 @@
+/*
+  Загружаем шрифт Chilanka
+*/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Unbounded', cursive;
+  text-align: center;
+
+}
+
+:root {
+  --text-color: #dfdbd8;
+  --background-color: #dfdbd8;
+}
+
+
+
+body {
+  padding: 10px;
+  font-weight: 100;
+  letter-spacing: 3pt;
+  background-color: var(--background-color);
+  color: #565c5e;
+  font-size: 300%;
+}
+
+.name {
+  line-height: 90%;
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+
+.block-title {
+  color: #455954;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.block-title2 {
+  color: #7aa39a;
+  font-size: 30px;
+  padding-bottom: 10px;
+  }
+
+.entry {
+  line-height: 100%;
+padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #565c5e;
+  color: #9d7463;
+  padding: 0 .25rem;
+  margin: 50px -.25rem 40px 10px;
+  transition: color 0.7s ease-in-out, box-shadow 1s ease-in-out;
+
+
+}
+
+  a:hover {
+  color: #fff;
+  box-shadow: inset 1000px 0 0 0 #455954;
+}
+
