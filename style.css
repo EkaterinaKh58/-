@@ -30,6 +30,11 @@ body {
   font-size: 300%;
 }
 
+.git {
+  color: #455954;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
 .name {
   line-height: 90%;
   font-size: 100px;
